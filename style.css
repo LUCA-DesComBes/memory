@@ -1,0 +1,20 @@
+body {
+  display: grid;
+  gap: 7px;
+  grid: repeat(4, 80px) / auto-flow 80px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(0, 0, 0);
+  border: black 2px solid;
+}
+p {
+  padding: 0px 20px 20px 20px;
+}
+div:active {
+  transition: background-color 0.8s ease;
+  background-color: transparent;
+}
